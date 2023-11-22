@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/009/005/669/non_2x/blue-water-wave-shape-layer-concept-zigzag-pattern-abstract-background-flat-design-illustration-style-free-vector.jpg');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.container{
+    border-radius: 15px;
+    background-color: white;
+    width: 30%;
+    height: 53%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-top: 30px;
+}
+h2{
+    padding-left: 57px;
+    font-size: 32px;
+}
+svg{
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.formcontainer input{
+    margin-bottom: 45px;
+    font-size: 16px;
+    border: none;
+}
+.formcontainer input,button{
+    width: 100%;
+    font-family: 'Times New Roman';
+}
+::placeholder{
+    color: black;
+}
+.formcontainer button{
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: bolder;
+    color: white;
+    background-image: linear-gradient(orange, rgb(235, 23, 153));
+    border: none;
+}
+.formcontainer{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 90px;
+}
